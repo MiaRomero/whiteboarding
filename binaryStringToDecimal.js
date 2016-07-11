@@ -7,7 +7,6 @@ assertEquals(convertBinaryStringToDecimal('2'), -1); // error case: return -1
 assertEquals(convertBinaryStringToDecimal('-10'), -1); // error case
 assertEquals(convertBinaryStringToDecimal([1, 10]), -1); // error case
 assertEquals(convertBinaryStringToDecimal('abc'), -1);
-console.log('secondTest');
 assertEquals(binaryTheHardWay('0'), 0);
 assertEquals(binaryTheHardWay('1'), 1);
 assertEquals(binaryTheHardWay('101'), 5);
